@@ -9,7 +9,11 @@ def run_git_command(args):
         print(f" Ошибка: {e.output.decode()}")
 
 def show_status():
+        feature/login-page
     print("Git Status:")
+
+    print(" Git Status:")
+        main
     run_git_command(["status"])
 
 def create_branch(branch_type, name):
